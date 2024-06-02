@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[527],{67527:function(e,a,s){s.r(a),a.default="/_next/static/chunks/media/images/img_no_data.238a608f932e16cec582.svg"}}]);

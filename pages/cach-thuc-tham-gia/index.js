@@ -1,0 +1,1 @@
+export { default } from '@containers/game-rule';

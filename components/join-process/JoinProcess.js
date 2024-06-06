@@ -115,7 +115,7 @@ class JoinProcess extends Component {
         return (
             <div className={classes.wrapper}>
                 <div className={classes.header}>
-                    <CTitle label={i18n.t(title || 'participateIn')} />
+                    <CTitle label={i18n.t(title || 'book')} />
                 </div>
                 {this._renderStep()}
             </div>

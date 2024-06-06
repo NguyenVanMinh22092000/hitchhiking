@@ -10,7 +10,7 @@ import { ImageViewer, Tooltip, CLink } from '@components/common';
 import { routes } from '@constants/Routes';
 
 const logos = {
-    main: require('@assets/images/logo/lg_castrol.svg'),
+    main: require('@assets/images/logo/hitchhiking-logo.png'),
     white: require('@assets/images/logo/lg_castrol_white.svg'),
 }
 

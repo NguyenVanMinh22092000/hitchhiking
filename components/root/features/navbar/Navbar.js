@@ -83,10 +83,10 @@ class Navbar extends Component {
                         <div className={classNames(classes.cLayout, classes.container)}>
                             <div className={classes.mobileMenu}>
                                 <Hidden lgDown>
-                                    <WebLogo size={36} homePageURL={'/'} />
+                                    <WebLogo size={75} homePageURL={'/'} />
                                 </Hidden>
                                 <Hidden lgUp>
-                                    <WebLogo size={18} homePageURL={'/'} />
+                                    <WebLogo size={75} homePageURL={'/'} />
                                 </Hidden>
                                 <div
                                     className={classes.menuBtn}

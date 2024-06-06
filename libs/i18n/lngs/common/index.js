@@ -2962,10 +2962,35 @@ export default {
         'Prize claim process',
         'ដូចចំណុចរបស់អ្នកដើម្បីទទួលរង្វាន់'
     ],
-    joinNow: [
-        'Tham gia ngay',
-        'Join now',
+    book: [
+        'Đặt xe',
+        'Book',
         'ចូលរួមឥឡូវនេះ',
+    ],
+    pickup:[
+        'Nhận cuốc xe',
+        'Pick up',
+        "Abc"
+    ],
+    pickupAddress: [
+        'Điểm đón',
+        'Pickup address',
+        'abc'
+    ],
+    dropOffAddress: [
+        'Điểm đến',
+        'Drop-off address',
+        'abc'
+    ],
+    searchPickupAddress: [
+        'Tìm kiếm địa chỉ đón',
+        'Search pickup location',
+        'abc'
+    ],
+    searchDropOffAddress: [
+        'Tìm kiếm địa chỉ đến',
+        'Seach drop-off location',
+        'abc'
     ],
     typicalPrize: [
         'Giải đặc biệt, giải 1, giải 2',

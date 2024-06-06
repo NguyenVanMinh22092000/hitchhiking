@@ -8,7 +8,7 @@ import withI18n from '@hocs/I18nHocs';
 import { withStyles } from '@mui/styles';
 import { styles } from './styles';
 
-import { CText, ImageViewer, WebLogo } from '@components/common';
+import { CLink, CText, ImageViewer, WebLogo } from '@components/common';
 import { Hidden } from '@mui/material';
 
 const icons = {
@@ -23,12 +23,12 @@ const images = {
 };
 
 const social = [
-    { id: 'facebook', link: '' },
-    { id: 'tiktok', link: '' },
+    { id: 'facebook', link: 'https://www.facebook.com/vanminhok12/' },
+    { id: 'tiktok', link: 'https://www.facebook.com/vanminhok12/' },
 ];
 
 const defaultDatas = {
-    shortDesc: 'Công ty TNHH Castrol BP Petco',
+    shortDesc: 'Công ty TNHH CIVILTECH',
     phone: 'aaaaaaaaa',
     address: '',
 };
@@ -63,15 +63,15 @@ class Footer extends Component {
                                 <div className={classes.info}>
                                     <div className={classes.infoItem}>
                                         <ImageViewer src={icons.address} width={17} height={23} />
-                                        <span>Địa chỉ: Lầu 9, Tòa nhà Times Square 57-69F Đồng Khởi, Phường Bến Nghé, Quận 1, TP.HCM.</span>
+                                        <span>Địa chỉ: 51 Đường số 2, Hiệp Bình Phước, TP.Thủ Đức.</span>
                                     </div>
                                     <div className={classes.infoItem}>
                                         <ImageViewer src={icons.phone} />
                                         <span>
                                             {`Số điện thoại: `}
-                                            {this._renderPhoneText('1900068665')}
+                                            {this._renderPhoneText('0987848374')}
                                             {' hoặc '}
-                                            {this._renderPhoneText('02838219153')}
+                                            {this._renderPhoneText('+63 9535530920')}
                                             {' để được giải đáp'}
                                         </span>
                                     </div>
@@ -85,10 +85,11 @@ class Footer extends Component {
                                     color={'white'}
                                     text={'Connect with us'}
                                 />
-                                <div className={classes.contactUsSocial}>
+                                <div className={classes.contactUsSocial}  >
                                     {social.map(item => {
-                                        const { id } = item || {};
+                                        const { id, link } = item || {};
                                         return (
+                                            <CLink href={link}>
                                             <ImageViewer
                                                 key={id}
                                                 clickable
@@ -96,14 +97,11 @@ class Footer extends Component {
                                                 width={32}
                                                 height={33}
                                             />
+                                            </CLink>
                                         )
                                     })}
                                 </div>
                             </div>
-                            {/* <ImageViewer
-                                src={images.certifications}
-                                className={classes.certifications}
-                            /> */}
                         </div>
 
                     </div>

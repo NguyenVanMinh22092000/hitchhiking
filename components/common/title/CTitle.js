@@ -26,12 +26,12 @@ const CTitle = (props) => {
             <div className={classNames(classes.label, color)}>
                 <span> {textTransform('u', label)} </span>
             </div>
-            <Hidden lgUp>
-                <ImageViewer src={icons.line} width={'auto'} height={4} />
-            </Hidden>
-            <Hidden lgDown>
-                <ImageViewer src={icons.line} width={'auto'} height={6} />
-            </Hidden>
+            {/* <Hidden lgUp> */}
+                {/* <ImageViewer src={icons.line} width={'auto'} height={4} /> */}
+            {/* </Hidden> */}
+            {/* <Hidden lgDown> */}
+                {/* <ImageViewer src={icons.line} width={'auto'} height={6} /> */}
+            {/* </Hidden> */}
         </div>
     );
 }

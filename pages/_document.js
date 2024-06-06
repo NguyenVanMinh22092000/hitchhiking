@@ -36,15 +36,15 @@ export default class MyDocument extends Document {
 				<Head>
 					<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 					{/* START: favicon */}
-					<link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png" />
-					<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png" />
-					<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png" />
+					{/* <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png" /> */}
+					{/* <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png" /> */}
+					{/* <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png" /> */}
 					<link rel="manifest" href="/static/favicon/site.webmanifest" />
-					<link rel="shortcut icon" href="/static/favicon/favicon.ico" />
-					<link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#009343" />
-					<meta name="msapplication-TileImage" content="/static/favicon/mstile-144x144.png" />
-					<meta name="msapplication-config" content="/static/favicon/browserconfig.xml" />
-					<meta name="theme-color" content={'#ffffff'} />
+					<link rel="shortcut icon" href="/static/favicon/logo.png" />
+					{/* <link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#009343" /> */}
+					{/* <meta name="msapplication-TileImage" content="/static/favicon/mstile-144x144.png" /> */}
+					{/* <meta name="msapplication-config" content="/static/favicon/browserconfig.xml" /> */}
+					{/* <meta name="theme-color" content={'#ffffff'} /> */}
 					{/* END: favicon */}
 					{/* START: custom header */}
 					<meta name="google-site-verification" content="" />

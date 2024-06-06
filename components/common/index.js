@@ -3,11 +3,10 @@ export { default as CAnimationScroll } from './animation-scroll';
 
 export { default as BackgroundSection } from './background-section';
 export { default as CButton } from './button';
-
 export { default as ContextMenu } from './context-menu';
 
 export { default as CDrawer } from './drawer';
-
+export {default as CuDrawer} from './cu-drawer';
 export { default as ImageViewer } from './image-viewer';
 
 export { default as CLayout } from './layout';

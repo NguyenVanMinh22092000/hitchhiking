@@ -63,7 +63,7 @@ export const colors = {
 
     base: '#7d7d7d',
 
-    primary: '#3C5569',
+    primary: '#E4F4C6',
     primaryLight: '#666666',
     primaryDim: '#808080',
 

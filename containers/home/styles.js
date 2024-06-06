@@ -1,4 +1,4 @@
-import { cStyles, commonClasses } from '@styles/theme';
+import { borderRadiuses, boxShadows, cStyles, colors, commonClasses } from '@styles/theme';
 
 export const styles = ({ palette, breakpoints }) => ({
     ...commonClasses({ breakpoints }),
@@ -277,11 +277,26 @@ export const styles = ({ palette, breakpoints }) => ({
             margin: '64px 0',
         },
     },
-    prStructure: {
+    option: {
         marginTop: 40,
+        marginBottom: 170,
+        display: 'flex',
+        gap: 30,
         [breakpoints.up('lg')]: {
             marginTop: 64,
         },
+    },
+    subOption: {
+        ...cStyles.flexColCenter,
+        gap: 10,
+    },
+    optionImage: {
+        width: 70,
+        height: 70,
+        background: colors.primary,
+        borderRadius: borderRadiuses.primary,
+        ...cStyles.flexCenter,
+        cursor:'pointer'
     },
     prsAll: {
         marginTop: 36,

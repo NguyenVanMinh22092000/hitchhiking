@@ -41,7 +41,7 @@ const CLayout = (props) => {
             <div {...containerProps}>
                 {children}
             </div>
-            <Footer {...footerProps} />
+            {/* <Footer {...footerProps} /> */}
         </div>
     );
 
